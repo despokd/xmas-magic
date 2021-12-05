@@ -6,6 +6,10 @@
     export let urlDonate;
 </script>
 
+<svelte:head>
+	<title>{name}</title>
+</svelte:head>
+
 <article>
 	<header>
 		<h1>{ name }</h1>
