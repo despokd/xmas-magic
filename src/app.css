@@ -107,3 +107,12 @@ a {
 a:hover {
 	border-bottom-color: var(--red-100);
 }
+
+.list-grid {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 1rem;
+	padding-left: 0;
+}
