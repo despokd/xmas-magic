@@ -1,0 +1,109 @@
+@import '@fontsource/fira-mono';
+
+:root {
+	--green-000: #ffffff;
+	--green-010: #e6edeb;
+	--green-020: #ccdad6;
+	--green-030: #b3c8c2;
+	--green-040: #99b5ad;
+	--green-050: #80a399;
+	--green-060: #669185;
+	--green-070: #4d7e70;
+	--green-080: #336c5c;
+	--green-090: #1a5947;
+	--green-100: #004733;
+
+	--red-000: #ffffff;
+	--red-010: #f7e6e7;
+	--red-020: #efcecf;
+	--red-030: #e6b5b7;
+	--red-040: #de9c9f;
+	--red-050: #d68487;
+	--red-060: #ce6b6f;
+	--red-070: #c65257;
+	--red-080: #bd393f;
+	--red-090: #b52127;
+	--red-100: #ad080f;
+
+	--neutral-000: #ffffff;
+	--neutral-010: #e6e6e6;
+	--neutral-020: #cccccc;
+	--neutral-030: #b3b3b3;
+	--neutral-040: #999999;
+	--neutral-050: #808080;
+	--neutral-060: #666666;
+	--neutral-070: #4c4c4c;
+	--neutral-080: #333333;
+	--neutral-090: #191919;
+	--neutral-100: #000000;								
+
+
+	--text-font-family: sans-serif;
+	--heading-font-family: sans-serif;
+
+	--bg-color: var(--green-030);
+	--section-color: var(--green-040);
+	--text-color: var(--red-);
+	--heading-color: var(--brand-red-3);
+	--accent-color-1: var(--brand-red-2)
+}
+
+body {
+	background: var(--green-040);
+	color: var(--neutral-080);
+	font-family: var(--text-font-family);
+	font-size: 1rem;
+	margin: 0;
+}
+
+#svelte {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--neutral-090);
+	font-family: var(--heading-font-family);
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 2px solid var(--red-090);
+}
+
+a:hover {
+	border-bottom-color: var(--red-100);
+}
