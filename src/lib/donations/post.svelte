@@ -39,3 +39,6 @@
         {/if}
     </footer>
 </article>
+
+<style lang="scss">
+</style>
