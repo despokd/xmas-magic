@@ -1,6 +1,8 @@
 <script>
-	export let organization = 'Unknown';
-	export let name = 'Donation';
+	import { _ } from '$lib/i18n';
+
+	export let name = $_('donations.donation');
+	export let organization;
 	export let amount = 0;
 	export let urlHome;
 	export let urlDonate;
@@ -14,17 +16,19 @@
 	<header>
 		<h1>{name}</h1>
 		<dl>
-			<dt>Organization</dt>
-			<dd>{organization}</dd>
-			<dt>Amount</dt>
+			{#if organization}
+				<dt>{$_('donations.organization')}</dt>
+				<dd>{organization}</dd>
+			{/if}
+			<dt>{$_('donations.amount')}</dt>
 			<dd>{amount} EUR</dd>
 			{#if urlHome}
-				<dt>Homepage</dt>
-				<dd>{urlHome} EUR</dd>
+				<dt>{$_('donations.homepage')}</dt>
+				<dd>{urlHome}</dd>
 			{/if}
 			{#if urlDonate}
-				<dt>Donate here</dt>
-				<dd>{urlDonate} EUR</dd>
+				<dt>{$_('donations.donateUrl')}</dt>
+				<dd><a href={urlDonate} target="_blank">{$_('donations.donateAction')}</a></dd>
 			{/if}
 		</dl>
 	</header>
@@ -35,12 +39,7 @@
 	</main>
 	<footer>
 		{#if urlDonate}
-			<a href={urlDonate} target="_blank">Donate here</a>
-			<dt>Donate here</dt>
-			<dd>{urlDonate} EUR</dd>
+			<a href={urlDonate} target="_blank">{$_('donations.donateAction')}</a>
 		{/if}
 	</footer>
 </article>
-
-<style lang="scss">
-</style>

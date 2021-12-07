@@ -1,11 +1,13 @@
-<script context="module">	
+<script context="module">
+	import { _ } from '$lib/i18n'
+
 	export const prerender = true;
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>{$_('home.title')}</title>
 </svelte:head>
 
 <div class="content">
-	<h1>Home</h1>
+	<h1>{$_('home.title')}</h1>
 </div>

@@ -1,15 +1,20 @@
 <script>
+	import { _ } from '$lib/i18n';
 	import { page } from '$app/stores';
 </script>
 
 <header>
 	<nav>
 		<ul>
-			<li class:active={$page.path === '/donations'}>
-				<a sveltekit:prefetch href="/donations">Donations</a>
+			<li class:active={$page.path === '/'}>
+				<a sveltekit:prefetch href="/">{$_('header.home')}</a>
 			</li>
-			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
+			<li class:active={$page.path === '/donations'}>
+				<a sveltekit:prefetch href="/donations">{$_('header.donations')}</a>
+			</li>
+			<li class:active={$page.path === '/about'}>
+				<a sveltekit:prefetch href="/about">{$_('header.about')}</a>
+			</li>
 		</ul>
 	</nav>
 </header>

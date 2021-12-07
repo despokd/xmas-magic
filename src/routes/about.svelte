@@ -1,4 +1,5 @@
 <script context="module">
+	import { _ } from '$lib/i18n'
 	import { browser, dev } from '$app/env';
 
 	// we don't need any JS on this page, though we'll load
@@ -15,9 +16,9 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>{$_('about.title')}</title>
 </svelte:head>
 
 <div class="content">
-	<h1>About</h1>
+	<h1>{$_('about.title')}</h1>
 </div>
