@@ -6,6 +6,6 @@
 	<title>Home</title>
 </svelte:head>
 
-<section>
+<div class="content">
 	<h1>Home</h1>
-</section>
+</div>

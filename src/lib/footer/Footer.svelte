@@ -6,3 +6,17 @@
         </ul>
     </nav>
 </footer>
+
+<style lang="scss">
+	nav {
+		margin-inline: auto;
+		width: max-content;
+	}
+
+	ul {
+		list-style: none;
+		display: flex;
+		gap: 1rem;
+		padding: 0;
+	}
+</style>

@@ -11,3 +11,11 @@
 </main>
 
 <Footer />
+
+<style lang="scss">
+	main {
+		max-width: 600px;
+		margin-inline: auto;
+		padding: 3vw;
+	}
+</style>
