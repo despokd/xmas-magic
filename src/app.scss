@@ -1,76 +1,57 @@
-@import '@fontsource/fira-mono';
-
-:root {
-	--green-000: #ffffff;
-	--green-010: #e6edeb;
-	--green-020: #ccdad6;
-	--green-030: #b3c8c2;
-	--green-040: #99b5ad;
-	--green-050: #80a399;
-	--green-060: #669185;
-	--green-070: #4d7e70;
-	--green-080: #336c5c;
-	--green-090: #1a5947;
-	--green-100: #004733;
-
-	--red-000: #ffffff;
-	--red-010: #f7e6e7;
-	--red-020: #efcecf;
-	--red-030: #e6b5b7;
-	--red-040: #de9c9f;
-	--red-050: #d68487;
-	--red-060: #ce6b6f;
-	--red-070: #c65257;
-	--red-080: #bd393f;
-	--red-090: #b52127;
-	--red-100: #ad080f;
-
-	--neutral-000: #ffffff;
-	--neutral-010: #e6e6e6;
-	--neutral-020: #cccccc;
-	--neutral-030: #b3b3b3;
-	--neutral-040: #999999;
-	--neutral-050: #808080;
-	--neutral-060: #666666;
-	--neutral-070: #4c4c4c;
-	--neutral-080: #333333;
-	--neutral-090: #191919;
-	--neutral-100: #000000;								
-
-
-	--text-font-family: sans-serif;
-	--heading-font-family: sans-serif;
-
-	--bg-color: var(--green-030);
-	--section-color: var(--green-040);
-	--text-color: var(--red-);
-	--heading-color: var(--brand-red-3);
-	--accent-color-1: var(--brand-red-2)
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
 
 body {
-	background: var(--green-040);
-	color: var(--neutral-080);
-	font-family: var(--text-font-family);
+	background-image: url(/flake.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 30vw 30vh;
+	background-color: #e6e6e6;
+	color: #333333;
+	font-family: Roboto Mono, sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 	margin: 0;
 	min-height: 100vh;
+
+	@media (prefers-color-scheme: dark) {
+		background-color: #131614;
+		color: #e6e6e6;
+	}
 }
 
 #svelte {
 	display: flex;
 	flex-direction: column;
-	margin: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: var(--neutral-090);
-	font-family: var(--heading-font-family);
+::selection {
+	background-color: rgba(255, 2, 2, 0.5);
+	color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #191919;
+	font-family: Roboto Mono, sans-serif;
+
+	@media (prefers-color-scheme: dark) {
+		color: #eceaea;
+	}
 }
 
 h1 {
 	font-size: 2rem;
+	font-style: italic;
+	display: block;
+	margin-inline: auto;
+	width: max-content;
+	background: red;
+	color: white;
+	padding: 0.25em 0.5em;
 }
 
 h2 {
@@ -101,10 +82,16 @@ a {
 	color: inherit;
 	text-decoration: none;
 	display: inline-block;
-	border-bottom: 2px solid var(--red-090);
+	background-image: linear-gradient(90deg, darkred, darkred);
+	background-size: 100% 2px;
+	background-repeat: no-repeat;
+	background-position: 0 88%;
+	transition: 0.2s ease-in-out;
 
-	&:hover {
-		border-bottom-color: var(--red-100);
+	&:hover,
+	&:focus {
+		color: white;
+		background-size: 100% 88%;
 	}
 }
 

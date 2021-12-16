@@ -7,7 +7,7 @@ function setupI18n() {
 			header: {
 				home: 'Home',
 				donations: 'Donations',
-				about: 'About'
+				imprint: 'Imprint'
 			},
 			footer: {
 				author: 'The author',
@@ -26,8 +26,8 @@ function setupI18n() {
                 donateUrl: 'Donation page',
                 donateAction: 'Donate here'
             },
-			about: {
-				title: 'About'
+			imprint: {
+				title: 'Imprint'
 			}
 		},
 		de: {
@@ -35,7 +35,7 @@ function setupI18n() {
 			header: {
 				home: 'Start',
 				donations: 'Spenden',
-				about: 'Das Projekt'
+				imprint: 'Impressum'
 			},
 			footer: {
 				author: 'Der Autor',
@@ -54,8 +54,8 @@ function setupI18n() {
                 donateUrl: 'Spendenseite',
                 donateAction: 'Hier gehts zum spenden'
             },
-			about: {
-				title: 'Das Projekt'
+			imprint: {
+				title: 'Impressum'
 			}
 		}
 	});
