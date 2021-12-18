@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
+
+body {
+	background-image: url(/flake.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 30vw 30vh;
+	background-color: #e6e6e6;
+	color: #333333;
+	font-family: Roboto Mono, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	margin: 0;
+	min-height: 100vh;
+
+	@media (prefers-color-scheme: dark) {
+		background-color: #131614;
+		color: #e6e6e6;
+	}
+}
+
+main {
+	padding-top: 10%;
+}
+
+#svelte {
+	display: flex;
+	flex-direction: column;
+}
+
+::selection {
+	background-color: rgba(255, 2, 2, 0.5);
+	color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #191919;
+	font-family: Roboto Mono, sans-serif;
+
+	@media (prefers-color-scheme: dark) {
+		color: #eceaea;
+	}
+}
+
+h1 {
+	font-size: 2rem;
+	font-style: italic;
+	display: block;
+	margin-inline: auto;
+	width: max-content;
+	background: red;
+	color: white;
+	padding: 0.25em 0.5em;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	display: inline-block;
+	background-image: linear-gradient(90deg, darkred, darkred);
+	background-size: 100% 2px;
+	background-repeat: no-repeat;
+	background-position: 0 88%;
+	transition: 0.2s ease-in-out;
+
+	&:hover,
+	&:focus {
+		color: white;
+		background-size: 100% 88%;
+	}
+}
+
+.list-grid {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 1rem;
+	padding-left: 0;
+}
