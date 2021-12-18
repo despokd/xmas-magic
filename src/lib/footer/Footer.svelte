@@ -5,7 +5,6 @@
 <footer>
     <nav>
         <ul>
-            <li><a href="https://kdomaratius.de" target="_blank">{$_('footer.author')}</a></li>
             <li><a href="https://github.com/despokd/xmas-magic" target="_blank">{$_('footer.project')}</a></li>
         </ul>
     </nav>
