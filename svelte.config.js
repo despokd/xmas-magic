@@ -6,12 +6,10 @@ const config = {
 	preprocess: [
 		preprocess({
 			scss: true
-		}),
+		})
 	],
 	kit: {
 		adapter: adapter(),
-
-		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
 	}
 };

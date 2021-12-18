@@ -1,12 +1,10 @@
 {
   "name": "xmas-magic",
-  "homepage": "https://despokd.github.io/xmas-magic/",
+  "homepage": "https://xmas-magic.vercel.app/",
   "version": "1.0.0",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -27,7 +25,6 @@
   "dependencies": {
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
-    "gh-pages": "^3.2.3",
     "hint": "^6.1.9",
     "sass": "^1.44.0",
     "svelte-i18n": "^3.3.13",
