@@ -2,7 +2,7 @@
 
 Donations to various projects and organizations for Christmas gifts
 
-[social-preview](/static/social-xmas-magic.png)
+[social preview](https://github.com/despokd/xmas-magic/blob/main/static/social-xmas-magic.png?raw=true)
 
 ## Developing
 
