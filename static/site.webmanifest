@@ -1,7 +1,7 @@
 {
   "short_name": "xmas-magic",
   "name": "xmas-magic",
-  "description": "Donations on various projects and organizations for christmas gifts",
+  "description": "Donations to various projects and organizations for Christmas gifts",
   "scope": "/",
   "start_url": "/",
   "icons": [

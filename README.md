@@ -1,5 +1,9 @@
 # xmas-magic
 
+Donations to various projects and organizations for Christmas gifts
+
+[social-preview](/static/social-xmas-magic.png)
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
