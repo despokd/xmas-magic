@@ -30,6 +30,7 @@
 			<DonationCard
 				donationId="ortrand"
 				name={$_('id') == 'de' ? 'Ortrander Freibad' : 'Ortrand outdoor pool'}
+				img="ortrand-img.jpg"
 			>
 				{#if $_('id') == 'de'}
 					Das Freibad in Ortrand sucht Unterstützende. Sie wollen den Menschen, ob Kinder oder

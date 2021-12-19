@@ -24,15 +24,17 @@
 		<dl>
 			{#if organization}
 				<dt>{$_('donations.organization')}</dt>
-				<dd>{organization}</dd>
+				<dd>
+					{#if urlHome}
+						<a href={urlHome} target="_blank" rel="norefer">{organization}</a>
+					{:else}
+						{organization}
+					{/if}
+				</dd>
 			{/if}
 			{#if amount}
 				<dt>{$_('donations.amount')}</dt>
 				<dd>{amount} EUR</dd>
-			{/if}
-			{#if urlHome}
-				<dt>{$_('donations.homepage')}</dt>
-				<dd><a href={urlHome} target="_blank" rel="norefer">{urlHome}</a></dd>
 			{/if}
 			{#if urlDonate}
 				<dt>{$_('donations.donateAction')}</dt>
