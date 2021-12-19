@@ -194,5 +194,22 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="baltic-sea"
+				name={$_('id') == 'de'
+					? 'Ostseefahrten für Mukoviszidose Betroffene & Familien aus Berlin/Brandenburg'
+					: 'Baltic sea trips for cystic fibrosis sufferers & families from Berlin/Brandenburg'}
+				img="baltic-sea-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Ziel der Klimafahrten ist es, den Teilnehmenden Erholung im wertvollen Ostseeklima zu
+					ermöglichen, damit ihr Gesundheitszustand nachhaltig positiv beeinflusst wird.
+				{:else}
+					The aim of the climate trips is to enable the participants to relax in the valuable Baltic
+					Sea climate so that their state of health is positively influenced in the long term.
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
