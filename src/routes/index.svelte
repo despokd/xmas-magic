@@ -9,7 +9,7 @@
 <Title title={$_('home.title')} />
 
 <div class="content">
-	<h1>{$_('home.title')}</h1>
+	<h1>xmas-magic</h1>
 	{#if $_('id') == 'de'}
 		<p>Fröhliche Weihnachten von Verena & Kilian</p>
 		<p>
