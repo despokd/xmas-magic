@@ -13,9 +13,10 @@
 			<slot />
 		</div>
 		{#if img}
-			<div class="col-img">
+			<figure>
 				<img src="/donations/{img}" alt="" />
-			</div>
+				<figcaption>&copy;</figcaption>
+			</figure>
 		{/if}
 	</div>
 	>&nbsp;<a sveltekit:prefetch href="/donations/{donationId}" title={name}
@@ -48,10 +49,10 @@
 		}
 	}
 
-	.col-img {
+	figure {
 		img {
 			object-fit: cover;
-			aspect-ratio: 3/2;
+			aspect-ratio: 5/4;
 			width: 100%;
 
 			@media screen and (min-width: 568px) {

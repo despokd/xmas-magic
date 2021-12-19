@@ -15,7 +15,10 @@
 <article>
 	<header>
 		{#if img}
+		<figure>
 			<img src="/donations/{img}" alt="" />
+			<figcaption>&copy; {organization}</figcaption>
+		</figure>
 		{/if}
 		<h1>{name}<br /><small>{$_('donations.title')}</small></h1>
 	</header>
