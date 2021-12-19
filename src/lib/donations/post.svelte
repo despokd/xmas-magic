@@ -15,10 +15,10 @@
 <article>
 	<header>
 		{#if img}
-		<figure>
-			<img src="/donations/{img}" alt="" />
-			<figcaption>&copy; {organization}</figcaption>
-		</figure>
+			<figure>
+				<img src="/donations/{img}" alt="" />
+				<figcaption>&copy; {organization}</figcaption>
+			</figure>
 		{/if}
 		<h1>{name}<br /><small>{$_('donations.title')}</small></h1>
 	</header>
@@ -63,6 +63,10 @@
 
 <style lang="scss">
 	header {
+		figure {
+			margin: 0;
+		}
+
 		img {
 			width: 100%;
 			display: block;
@@ -71,8 +75,8 @@
 			display: block;
 			text-align: center;
 			z-index: 1;
-			transform: translateY(-5rem);
-			margin-bottom: -4rem;
+			transform: translateY(-3rem);
+			margin-bottom: -2rem;
 			max-width: fit-content;
 
 			small {

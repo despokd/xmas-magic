@@ -50,6 +50,7 @@
 	}
 
 	figure {
+		margin: 0;
 		img {
 			object-fit: cover;
 			aspect-ratio: 5/4;
