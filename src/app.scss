@@ -7,7 +7,7 @@ body {
 	background-position: 30vw 30vh;
 	background-color: #e6e6e6;
 	color: #333333;
-	font-family: Roboto Mono, sans-serif;
+	font-family: Roboto Mono, serif;
 	font-size: 1rem;
 	line-height: 1.5;
 	margin: 0;
@@ -40,7 +40,7 @@ h4,
 h5,
 h6 {
 	color: #191919;
-	font-family: Roboto Mono, sans-serif;
+	font-family: Roboto Mono, serif;
 
 	@media (prefers-color-scheme: dark) {
 		color: #eceaea;
