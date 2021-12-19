@@ -99,5 +99,24 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="erfurt-culture"
+				name={$_('id') == 'de'
+					? 'Festivals im KulturQuartier Schauspielhaus'
+					: 'Festivals in the KulturQuartier Schauspielhaus'}
+				img="erfurt-culture-img.png"
+			>
+				{#if $_('id') == 'de'}
+					Helft uns, möglichst vielen Künstler*innen eine Möglichkeit zu bieten, nach langer,
+					unfreiwilliger Schaffenspause ihre Arbeiten zu zeigen und ihre Existenz zu sichern! Mit
+					Eurer Unterstützung können sie sich endlich wieder auf der Bühne präsentieren.
+				{:else}
+					Help us to offer as many artists as possible the opportunity to show their work after a
+					long, to show their work after a long, involuntary break and to secure their existence!
+					With With your support they can finally present themselves on stage again.
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
