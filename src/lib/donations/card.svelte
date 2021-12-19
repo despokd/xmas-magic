@@ -10,5 +10,5 @@
 	<p class="excerpt">
 		<slot />
 	</p>
-	<a sveltekit:prefetch href="/donations/{donationId}" class="link-arrow-right">{$_('donations.details')}</a>
+	> <a sveltekit:prefetch href="/donations/{donationId}" title="{name}">{$_('donations.details')}</a>
 </div>

@@ -1,6 +1,6 @@
 <script>
 	import { _ } from '$lib/i18n';
-	import Title from '$lib/header/Title.svelte'
+	import Title from '$lib/header/Title.svelte';
 
 	export let name = $_('donations.donation');
 	export let organization;
@@ -9,11 +9,11 @@
 	export let urlDonate;
 </script>
 
-<Title title="{$_('donations.title')} - {name}"></Title>
+<Title title="{$_('donations.title')} - {name}" />
 
 <article>
 	<header>
-		<h1>{name}<br><small>{$_('donations.title')}</small></h1>
+		<h1>{name}<br /><small>{$_('donations.title')}</small></h1>
 
 		<dl>
 			{#if organization}
@@ -38,9 +38,14 @@
 		</p>
 	</section>
 	<footer>
-		{#if urlDonate}
-			<a href={urlDonate} target="_blank">{$_('donations.donateAction')}</a>
-		{/if}
+		<ul>
+			{#if urlDonate}
+				<li><a href={urlDonate} target="_blank">{$_('donations.donateAction')}</a></li>
+			{/if}
+			<li>
+				<a href="/donations">{$_('donations.backToOverview')}</a>
+			</li>
+		</ul>
 	</footer>
 </article>
 
@@ -49,7 +54,11 @@
 		text-align: center;
 
 		small {
-			font-size: .5em;
+			font-size: 0.5em;
 		}
+	}
+
+	footer ul {
+		list-style: '> ';
 	}
 </style>

@@ -13,10 +13,13 @@
 				>
 			</li>
 			<li class:active={$page.path == '/donations' || $page.path.includes('/donations/')}>
-				<a sveltekit:prefetch href="/donations" title={$_('header.donations')}>{$_('header.donations')}</a>
+				<a sveltekit:prefetch href="/donations" title={$_('header.donations')}
+					>{$_('header.donations')}</a
+				>
 			</li>
 			<li class:active={$page.path === '/imprint'}>
-				<a sveltekit:prefetch href="/imprint" title={$_('header.imprint')}>{$_('header.imprint')}</a>
+				<a sveltekit:prefetch href="/imprint" title={$_('header.imprint')}>{$_('header.imprint')}</a
+				>
 			</li>
 		</ul>
 	</nav>
@@ -52,8 +55,8 @@
 	li {
 		font-weight: bold;
 		font-size: 1.25rem;
-		padding: 1rem .5rem;
-		transition: .3s ease-in-out;
+		padding: 1rem 0.5rem;
+		transition: 0.3s ease-in-out;
 		width: 100%;
 		line-height: 2rem;
 
@@ -67,6 +70,15 @@
 			color: white;
 
 			.icon {
+				color: white;
+			}
+		}
+
+		a:focus {
+			outline: 2px solid black;
+			color: black;
+			@media (prefers-color-scheme: dark) {
+				outline: 2px solid white;
 				color: white;
 			}
 		}

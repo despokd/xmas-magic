@@ -24,7 +24,8 @@ function setupI18n() {
                 donation: 'Donation',
                 homepage: 'Homepage',
                 donateUrl: 'Donation page',
-                donateAction: 'Donate here'
+                donateAction: 'Donate here',
+				backToOverview: 'Back to overview'
             },
 			imprint: {
 				title: 'Imprint'
@@ -52,7 +53,8 @@ function setupI18n() {
                 donation: 'Spende',
                 homepage: 'Webseite',
                 donateUrl: 'Spendenseite',
-                donateAction: 'Hier gehts zum spenden'
+                donateAction: 'Hier gehts zum spenden',
+				backToOverview: 'Zurück zur Übersicht'
             },
 			imprint: {
 				title: 'Impressum'
