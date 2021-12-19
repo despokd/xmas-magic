@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="10"
 	name={$_('id') == 'de'
 		? 'Krebs kennt keine Kilometer - Adventstour'
 		: 'Cancer knows no kilometers - Advent Tour'}

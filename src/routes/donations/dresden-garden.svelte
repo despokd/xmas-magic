@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="40"
 	name={$_('id') == 'de'
 		? 'Gärten & Gemeinschaft in Dresden - Wir wollen mehr!'
 		: 'Gardens & Community in Dresden - We want more!'}

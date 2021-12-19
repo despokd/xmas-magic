@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="10"
 	name={$_('id') == 'de' ? 'Ortrander Freibad' : 'Ortrand outdoor pool'}
 	img="ortrand-img.jpg"
 	urlDonate="https://www.betterplace.org/de/projects/70201-unterstuetzung-ortrander-freibad"

@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="20"
 	name={$_('id') == 'de'
 		? 'Ostseefahrten für Mukoviszidose Betroffene & Familien aus Berlin/Brandenburg'
 		: 'Baltic sea trips for cystic fibrosis sufferers & families from Berlin/Brandenburg'}

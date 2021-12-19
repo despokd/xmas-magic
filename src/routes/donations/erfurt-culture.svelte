@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="10"
 	name={$_('id') == 'de'
 		? 'Festivals im KulturQuartier Schauspielhaus'
 		: 'Festivals in the KulturQuartier Schauspielhaus'}

@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="10"
 	name={$_('id') == 'de'
 		? 'Werden Sie Pate des Jugendrats!'
 		: 'Become a sponsor of the Youth Council!'}

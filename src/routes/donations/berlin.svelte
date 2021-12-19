@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="10"
 	name={$_('id') == 'de' ? 'MUSIK macht uns gemeinsam STARK' : 'MUSIC makes us STRONG together'}
 	img="berlin-img.jpg"
 	urlDonate="https://www.betterplace.org/de/projects/8301-musik-macht-uns-gemeinsam-stark"

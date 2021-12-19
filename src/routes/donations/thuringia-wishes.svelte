@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="40"
 	name={$_('id') == 'de' ? 'ASB Wünschewagen Thüringen' : 'ASB Wish Wagon Thuringia'}
 	img="thuringia-wishes-img.jpg"
 	urlDonate="https://www.betterplace.org/de/projects/66019-asb-wuenschewagen-thueringen"

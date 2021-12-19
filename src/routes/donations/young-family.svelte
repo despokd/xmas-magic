@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="50"
 	name={$_('id') == 'de'
 		? 'Das Familienhörbuch für sterbenskranke junge Eltern'
 		: 'The family audio book for terminally ill young parents'}

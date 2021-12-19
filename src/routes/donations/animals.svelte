@@ -4,7 +4,7 @@
 </script>
 
 <DonationPost
-	amount=""
+	amount="20"
 	name={$_('id') == 'de'
 		? 'Hilfe für die Tiere des Tierschutzvereins Delmenhorst'
 		: 'Help for the animals of the Tierschutzverein Delmenhorst'}
