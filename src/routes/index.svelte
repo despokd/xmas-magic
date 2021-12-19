@@ -1,7 +1,8 @@
 <script context="module">
 	import { _ } from '$lib/i18n';
 	import Title from '$lib/header/Title.svelte';
-	import DonationCard from '$lib/donations/card.svelte';
+
+	let amount = 230;
 
 	export const prerender = true;
 </script>
@@ -25,6 +26,10 @@
 			Daraus ist diese Seite entstanden. Hier könnt ihr sehen für welchen guten Zweck wir uns für
 			die einzelnen Teile in der Familie entschieden haben.
 		</p>
+		<dl>
+			<dt>Spendenvolumen</dt>
+			<dd>{amount} EUR</dd>
+		</dl>
 		>&nbsp;<a href="/donations">Alle Spenden anzeigen</a>
 	{:else}
 		<p>Merry Christmas from Verena & Kilian</p>
@@ -42,6 +47,10 @@
 			The result is this page. Now you can see for which charity we have decided for the for the
 			various parts in the family.
 		</p>
+		<dl>
+			<dt>Donation volume</dt>
+			<dd>{amount} EUR</dd>
+		</dl>
 		>&nbsp;<a href="/donations">See all donations</a>
 	{/if}
 </div>
