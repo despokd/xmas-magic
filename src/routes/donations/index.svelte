@@ -11,22 +11,6 @@
 
 	<ul class="list-grid">
 		<li>
-			<!-- 
-			<DonationCard donationId="example" name={
-				($_('id') == 'de') ? 'Beispiel' : 'Example'
-			}>
-			{#if $_('id') == 'de'}
-				DE Exercitationem sunt dolor ab. Quod voluptate voluptatem eos quibusdam quidem repellat. Ea
-				possimus quaerat perspiciatis id vero minus consequatur. Dolorem quia quo odio. Aperiam
-				eligendi enim eveniet sint eveniet. Quos esse dolorum delectus
-			{:else}
-				EN Exercitationem sunt dolor ab. Quod voluptate voluptatem eos quibusdam quidem repellat. Ea
-				possimus quaerat perspiciatis id vero minus consequatur. Dolorem quia quo odio. Aperiam
-				eligendi enim eveniet sint eveniet. Quos esse dolorum delectus
-			{/if}
-			</DonationCard>
-			-->
-
 			<DonationCard
 				donationId="ortrand"
 				name={$_('id') == 'de' ? 'Ortrander Freibad' : 'Ortrand outdoor pool'}
@@ -38,6 +22,25 @@
 				{:else}
 					The outdoor pool in Ortrand is looking for supporters. They want to give people, whether
 					children or seniors, to enjoy bathing and swimming again.
+				{/if}
+			</DonationCard>
+		</li>
+		<li>
+			<DonationCard
+				donationId="berlin"
+				name={$_('id') == 'de'
+					? 'MUSIK macht uns gemeinsam STARK'
+					: 'MUSIC makes us STRONG together'}
+				img="berlin-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Durch das Musikprojekt können Kinder der Kreuzberger Hunsrück-Grundschule unabhängig von
+					der finanziellen Situation ihrer Eltern während der Schulzeit ein Instrument spielen
+					lernen.
+				{:else}
+					Through the music project, children at the Kreuzberg Hunsrück Elementary School can,
+					regardless of financial situation of their parents can learn to play an instrument during
+					their school learn.
 				{/if}
 			</DonationCard>
 		</li>

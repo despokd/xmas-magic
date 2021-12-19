@@ -70,6 +70,7 @@
 			z-index: 1;
 			transform: translateY(-5rem);
 			margin-bottom: -4rem;
+			max-width: fit-content;
 
 			small {
 				font-size: 0.5em;
