@@ -156,5 +156,24 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="thuringia-wishes"
+				name={$_('id') == 'de'
+					? 'ASB Wünschewagen Thüringen'
+					: 'ASB Wish Wagon Thuringia'}
+				img="thuringia-wishes-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Nach wie vor ist oberstes Ziel unseres Projektes todkranken Menschen einen letzten Wunsch
+					zu erfüllen. Dazu fahren wir unsere Fahrgäste mit dem Wünschewagen, innerhalb Deutschland,
+					an ein Ziel ihrer Träume.
+				{:else}
+					The primary goal of our project is still to fulfill the last wish of terminally ill
+					people. To this end, we drive our passengers to the destination of their dreams with the
+					"Wünschewagen" within Germany.
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
