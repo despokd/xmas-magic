@@ -40,7 +40,7 @@
 			{/if}
 			{#if urlDonate}
 				<dt>{$_('donations.donateAction')}</dt>
-				<dd><a href={urlDonate} target="_blank" rel="norefer">{urlDonate}</a></dd>
+				<dd><a href={urlDonate} target="_blank" rel="norefer">{urlDonate.replace('https://', '').replace('http://', '').replace('www.', '').replace(/,$/,"/")}</a></dd>
 			{/if}
 		</dl>
 	</section>
