@@ -49,10 +49,14 @@
 	li {
 		font-weight: bold;
 		font-size: 1.25rem;
-		padding: 1rem;
+		padding: 1rem .5rem;
 		transition: .3s ease-in-out;
 		width: 100%;
 		line-height: 2rem;
+
+		@media screen and (min-width: 568px) {
+			padding: 1rem;
+		}
 
 		&.active,
 		&:hover {

@@ -25,7 +25,13 @@
 		max-width: 600px;
 		width: 100%;
 		margin-inline: auto;
-		padding-inline: 72px;
+		padding-left: calc(48px + 10%);
+		padding-right: 10%;
+		padding-top: 10%;
+
+		@media  screen and (min-width: 568px) {
+			padding-left: calc(64px + 10%);
+		}
 	}
 
 	.layout {

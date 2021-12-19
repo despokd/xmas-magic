@@ -11,6 +11,10 @@
 </footer>
 
 <style lang="scss">
+	footer  {
+		margin-bottom: 10%;
+	}
+
 	nav {
 		margin-inline: auto;
 		width: max-content;

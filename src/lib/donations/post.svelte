@@ -32,11 +32,11 @@
 			{/if}
 		</dl>
 	</header>
-	<main>
+	<section>
 		<p>
 			<slot />
 		</p>
-	</main>
+	</section>
 	<footer>
 		{#if urlDonate}
 			<a href={urlDonate} target="_blank">{$_('donations.donateAction')}</a>

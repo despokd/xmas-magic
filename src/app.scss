@@ -19,10 +19,6 @@ body {
 	}
 }
 
-main {
-	padding-top: 10%;
-}
-
 #svelte {
 	display: flex;
 	flex-direction: column;
@@ -52,10 +48,11 @@ h1 {
 	font-style: italic;
 	display: block;
 	margin-inline: auto;
+	margin-bottom: 1.5em;
+	padding: 0.25em 0.5em;
 	width: max-content;
 	background: red;
 	color: white;
-	padding: 0.25em 0.5em;
 }
 
 h2 {
