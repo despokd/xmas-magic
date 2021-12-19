@@ -80,5 +80,24 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="animals"
+				name={$_('id') == 'de'
+					? 'Hilfe für die Tiere des Tierschutzvereins Delmenhorst'
+					: 'Help for the animals of the Tierschutzverein Delmenhorst'}
+				img="animals-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Helfen Sie unseren Tieren. Seit 2003 existiert nun unser wunderschöner Tierschutzhof am
+					Schillbrok in Delmenhorst. Helfen Sie uns dabei, weiterhin als Zuflucht für
+					schutzbedürftige Tiere zu dienen.
+				{:else}
+					Help our animals. Since 2003 exists our beautiful animal protection farm at the Schillbrok
+					in Delmenhorst. Please help us to continue to serve as a sanctuary for animals in need of
+					protection.
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
