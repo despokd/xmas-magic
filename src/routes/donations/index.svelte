@@ -137,5 +137,24 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="young-family"
+				name={$_('id') == 'de'
+					? 'Das Familienhörbuch für sterbenskranke junge Eltern'
+					: 'The family audio book for terminally ill young parents'}
+				img="young-family-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Das erste was Kinder hören ist die Stimme der Mutter und des Vaters. Mit dem
+					Familienhörbuch überlebt die Stimme der verstorbenen Eltern über den Tod hinaus. Helfen
+					auch Sie frühverwaisten Kindern die Stimme ihrer Eltern nicht zu vergessen.
+				{:else}
+					The first thing children hear is the voice of their mother and father. With the family
+					audio book, the voice of the deceased parents survives beyond death. Help children
+					orphaned at an early age not to forget the voice of their parents.
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
