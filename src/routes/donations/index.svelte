@@ -159,9 +159,7 @@
 		<li>
 			<DonationCard
 				donationId="thuringia-wishes"
-				name={$_('id') == 'de'
-					? 'ASB Wünschewagen Thüringen'
-					: 'ASB Wish Wagon Thuringia'}
+				name={$_('id') == 'de' ? 'ASB Wünschewagen Thüringen' : 'ASB Wish Wagon Thuringia'}
 				img="thuringia-wishes-img.jpg"
 			>
 				{#if $_('id') == 'de'}
@@ -172,6 +170,27 @@
 					The primary goal of our project is still to fulfill the last wish of terminally ill
 					people. To this end, we drive our passengers to the destination of their dreams with the
 					"Wünschewagen" within Germany.
+				{/if}
+			</DonationCard>
+		</li>
+		<li>
+			<DonationCard
+				donationId="cancer-run"
+				name={$_('id') == 'de'
+					? 'Krebs kennt keine Kilometer - Adventstour'
+					: 'Cancer knows no kilometers - Advent Tour'}
+				img="cancer-run-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Unter diesem Motto bin ich, Marcel Wilhelm, in voller Rettungsdienstmontur über 700
+					Kilometer für krebskranke und benachteiligte Kinder gelaufen. Dieses Jahr zur Adventszeit,
+					fast 1 Jahr nach meinem ersten Spendenlauf, starte ich meinen dritten, um damit die 1000
+					Kilometer marke zu knacken!
+				{:else}
+					Under this motto, I, Marcel Wilhelm, ran over 700 kilometers in full rescue gear
+					kilometers for children with cancer and disadvantaged children. This year during Advent,
+					almost 1 year after my first fundraising run, I am starting my third, in order to break
+					the 1000 kilometer mark!
 				{/if}
 			</DonationCard>
 		</li>
