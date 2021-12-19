@@ -18,20 +18,33 @@
 			</div>
 		{/if}
 	</div>
-	>&nbsp;<a sveltekit:prefetch href="/donations/{donationId}" title={name}>{$_('donations.details')}</a>
+	>&nbsp;<a sveltekit:prefetch href="/donations/{donationId}" title={name}
+		>{$_('donations.details')}</a
+	>
 </section>
 
 <style lang="scss">
 	.container {
 		padding-bottom: 1rem;
 		display: flex;
+		flex-direction: column;
+		flex-direction: column-reverse;
+
+		@media screen and (min-width: 568px) {
+			flex-direction: row;
+		}
 	}
 
 	.col-img {
 		img {
 			object-fit: cover;
 			aspect-ratio: 3/2;
-			width: 9em;
+			width: 100%;
+
+			@media screen and (min-width: 568px) {
+				margin-left: 0.5rem;
+				width: 10em;
+			}
 		}
 	}
 </style>
