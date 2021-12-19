@@ -118,5 +118,24 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="youth"
+				name={$_('id') == 'de'
+					? 'Werden Sie Pate des Jugendrats!'
+					: 'Become a sponsor of the Youth Council!'}
+				img="youth-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Die Generationen Stiftung stärkt die jungen Generationen, um ihnen wieder eine Stimme zu
+					geben, und sorgt dafür, dass die Politik nachhaltig und langfristig im Interesse der
+					jungen und zukünftigen Generationen handelt.
+				{:else}
+					The Generations Foundation empowers the younger generations to give them a voice again and
+					ensures that politics acts sustainably and in the long term in the interest of the young
+					young and future generations.
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
