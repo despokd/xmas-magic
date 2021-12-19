@@ -2,7 +2,6 @@
 	import { _ } from '$lib/i18n';
 	import Title from '$lib/header/Title.svelte';
 
-	export let id;
 	export let img;
 	export let name = $_('donations.donation');
 	export let organization;
