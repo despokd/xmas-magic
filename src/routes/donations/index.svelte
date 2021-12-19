@@ -44,5 +44,24 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="dresden-garden"
+				name={$_('id') == 'de'
+					? 'Gärten & Gemeinschaft in Dresden - Wir wollen mehr!'
+					: 'Gardens & Community in Dresden - We want more!'}
+				img="dresden-garden-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Mehr Gemeinschaft, mehr Gärten und Nachhaltigkeit in und für Dresden! Wir machen
+					Gemeinschaftsgärten, teilen Wissen in Workshops, verleihen Werkzeuge und pflanzen
+					gemeinsam für eine essbare Stadt der Zukunft.
+				{:else}
+					More community, more gardens and sustainability in and for Dresden! We make community
+					gardens, share knowledge in workshops, lend tools and plant together for an edible city of
+					the future.
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
