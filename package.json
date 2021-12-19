@@ -1,6 +1,6 @@
 {
   "name": "xmas-magic",
-  "homepage": "https://xmas-magic.vercel.app/",
+  "homepage": "https://xmasmagic.vercel.app/",
   "version": "1.0.0",
   "scripts": {
     "dev": "svelte-kit dev",
