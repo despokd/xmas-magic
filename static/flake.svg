@@ -10,7 +10,7 @@
 
 		@media (prefers-color-scheme: dark) {
 			.color {
-				fill: #00000050;
+				fill: #00000070;
 			}
 		}
 	</style>
