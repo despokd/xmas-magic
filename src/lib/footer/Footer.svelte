@@ -12,7 +12,7 @@
 
 <style lang="scss">
 	footer  {
-		margin-bottom: 10%;
+		margin-bottom: 7.5%;
 	}
 
 	nav {

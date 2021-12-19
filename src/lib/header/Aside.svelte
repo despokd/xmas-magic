@@ -25,7 +25,11 @@
 <style lang="scss">
 	aside {
 		min-height: 100vh;
-		color: white;
+		color: red;
+
+		@media (prefers-color-scheme: dark) {
+			color: white;
+		}
 
 		position: fixed;
 		top: 0;
@@ -60,6 +64,11 @@
 		&.active,
 		&:hover {
 			background-color: red;
+			color: white;
+
+			.icon {
+				color: white;
+			}
 		}
 	}
 
@@ -68,8 +77,12 @@
 	}
 
 	.icon {
-		color: white;
 		width: 2rem;
 		height: 2rem;
+		color: red;
+
+		@media (prefers-color-scheme: dark) {
+			color: white;
+		}
 	}
 </style>
