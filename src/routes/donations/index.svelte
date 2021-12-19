@@ -63,5 +63,22 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="dresden-culture"
+				name={$_('id') == 'de' ? 'Kuku braucht deine Unterstützung!' : 'Kuku needs your support!'}
+				img="dresden-culture-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Kukulida, ein Treffpunkt für Kunst, Politik, soziales Miteinander, usw. Wann immer es die
+					Auflagen zulassen, kommen nach wie vor Menschen & nutzen den Veranstaltungsraum. Sie
+					brauchen deine Kohle, damit es weiter gehen kann!
+				{:else}
+					Kukulida, a meeting place for art, politics, social interaction, etc. Whenever the
+					conditions allow it, people still come & use the event space. They need your cash to keep
+					it going!
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
