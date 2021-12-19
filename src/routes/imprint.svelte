@@ -1,5 +1,7 @@
 <script context="module">
 	import { _ } from '$lib/i18n';
+	import Title from '$lib/header/Title.svelte'
+
 	import { browser, dev } from '$app/env';
 
 	// we don't need any JS on this page, though we'll load
@@ -15,9 +17,7 @@
 	export const prerender = true;
 </script>
 
-<svelte:head>
-	<title>{$_('imprint.title')}</title>
-</svelte:head>
+<Title title="{$_('imprint.title')}"></Title>
 
 <div class="content">
 	{#if $_('id') == 'de'}

@@ -12,7 +12,7 @@
 					><div class="icon"><IoIosHome /></div></a
 				>
 			</li>
-			<li class:active={$page.path === '/donations'}>
+			<li class:active={$page.path == '/donations' || $page.path.includes('/donations/')}>
 				<a sveltekit:prefetch href="/donations">{$_('header.donations')}</a>
 			</li>
 			<li class:active={$page.path === '/imprint'}>

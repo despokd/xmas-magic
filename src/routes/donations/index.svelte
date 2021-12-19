@@ -1,11 +1,10 @@
 <script>
 	import { _ } from '$lib/i18n';
 	import DonationCard from '$lib/donations/card.svelte';
+	import Title from '$lib/header/Title.svelte'
 </script>
 
-<svelte:head>
-	<title>{$_('donations.title')}</title>
-</svelte:head>
+<Title title="{$_('donations.title')}"></Title>
 
 <div class="content">
 	<h1>{$_('donations.title')}</h1>
