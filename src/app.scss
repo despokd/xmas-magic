@@ -25,8 +25,12 @@ body {
 }
 
 ::selection {
-	background-color: rgba(255, 2, 2, 0.5);
+	background-color: rgba(139, 0, 0, .75);
 	color: white;
+
+	@media (prefers-color-scheme: dark) {
+		background-color: rgba(255, 2, 2, .5);
+	}
 }
 
 h1,
