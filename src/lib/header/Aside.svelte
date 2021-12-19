@@ -25,7 +25,6 @@
 <style lang="scss">
 	aside {
 		min-height: 100vh;
-		background: darkred;
 		color: white;
 
 		position: fixed;
