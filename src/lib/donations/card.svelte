@@ -24,6 +24,19 @@
 </section>
 
 <style lang="scss">
+	.card {
+		background: #e6e6e6;
+		padding: 0.5rem;
+		margin-bottom: 1rem;
+
+		@media (prefers-color-scheme: dark) {
+			background: #131614;
+		}
+
+		h2 {
+			margin-top: 0;
+		}
+	}
 	.container {
 		padding-bottom: 1rem;
 		display: flex;
