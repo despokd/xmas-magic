@@ -4,19 +4,19 @@
 	import IoIosHome from 'svelte-icons/io/IoIosHome.svelte';
 </script>
 
-<aside>
+<aside role="banner">
 	<nav>
 		<ul>
 			<li class:active={$page.path === '/'}>
-				<a sveltekit:prefetch href="/" aria-label={$_('header.home')} titel={$_('header.home')}
+				<a sveltekit:prefetch href="/" aria-label={$_('header.home')} title={$_('header.home')}
 					><div class="icon"><IoIosHome /></div></a
 				>
 			</li>
 			<li class:active={$page.path == '/donations' || $page.path.includes('/donations/')}>
-				<a sveltekit:prefetch href="/donations">{$_('header.donations')}</a>
+				<a sveltekit:prefetch href="/donations" title={$_('header.donations')}>{$_('header.donations')}</a>
 			</li>
 			<li class:active={$page.path === '/imprint'}>
-				<a sveltekit:prefetch href="/imprint">{$_('header.imprint')}</a>
+				<a sveltekit:prefetch href="/imprint" title={$_('header.imprint')}>{$_('header.imprint')}</a>
 			</li>
 		</ul>
 	</nav>
