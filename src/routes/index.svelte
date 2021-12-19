@@ -30,6 +30,7 @@
 			<dt>Spendenvolumen</dt>
 			<dd>{amount} EUR</dd>
 		</dl>
+		<p>Die Höhe der Beiträge misst sich an der Anzahl der Personen je Gruppe.</p>
 		>&nbsp;<a href="/donations">Alle Spenden anzeigen</a>
 	{:else}
 		<p>Merry Christmas from Verena & Kilian</p>
@@ -51,6 +52,7 @@
 			<dt>Donation volume</dt>
 			<dd>{amount} EUR</dd>
 		</dl>
+		<p>The amount of the contributions is measured by the number of people per group.</p>
 		>&nbsp;<a href="/donations">See all donations</a>
 	{/if}
 </div>
