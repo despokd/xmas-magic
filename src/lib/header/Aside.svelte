@@ -74,7 +74,7 @@
 			}
 		}
 
-		a:focus {
+		a:focus-visible {
 			outline: 2px solid black;
 			color: black;
 			@media (prefers-color-scheme: dark) {
