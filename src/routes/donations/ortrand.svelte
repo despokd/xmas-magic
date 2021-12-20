@@ -7,7 +7,7 @@
 	amount="10"
 	name={$_('id') == 'de' ? 'Ortrander Freibad' : 'Ortrand outdoor pool'}
 	img="ortrand-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/70201-unterstuetzung-ortrander-freibad"
+	urlDonate="https://www.betterplace.org/projects/70201-unterstuetzung-ortrander-freibad"
 	urlHome="https://www.wsg-niederlausitz.de/"
 	organization ="Wassersportgemeinschaft Niederlausitz e.V."
 >
