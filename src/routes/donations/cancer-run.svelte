@@ -9,7 +9,7 @@
 		? 'Krebs kennt keine Kilometer - Adventstour'
 		: 'Cancer knows no kilometers - Advent Tour'}
 	img="cancer-run-img.jpg"
-	urlDonate="https://www.betterplace.org/de/fundraising-events/39888-krebs-kennt-keine-kilometer-adventstour"
+	urlDonate="https://www.betterplace.org/fundraising-events/39888-krebs-kennt-keine-kilometer-adventstour"
 	urlHome="https://www.youtube.com/watch?v=zXl_duQCrtw"
 	organization="Marcel Wilhelm / Kinderhospiz Mitteldeutschland in Tambach-Dietharz"
 >
