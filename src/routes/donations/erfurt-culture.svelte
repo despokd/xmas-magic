@@ -9,7 +9,7 @@
 		? 'Festivals im KulturQuartier Schauspielhaus'
 		: 'Festivals in the KulturQuartier Schauspielhaus'}
 	img="erfurt-culture-img.png"
-	urlDonate="https://www.betterplace.org/de/projects/96744-unterstuetze-zwei-festivals-im-kulturquartier-schauspielhaus"
+	urlDonate="https://www.betterplace.org/projects/96744-unterstuetze-zwei-festivals-im-kulturquartier-schauspielhaus"
 	urlHome="https://www.kulturquartier-erfurt.de/"
 	organization="KulturQuartier Erfurt e.V."
 >
