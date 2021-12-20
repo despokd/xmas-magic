@@ -7,7 +7,7 @@
 	amount="40"
 	name={$_('id') == 'de' ? 'ASB Wünschewagen Thüringen' : 'ASB Wish Wagon Thuringia'}
 	img="thuringia-wishes-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/66019-asb-wuenschewagen-thueringen"
+	urlDonate="https://www.betterplace.org/projects/66019-asb-wuenschewagen-thueringen"
 	urlHome="https://www.asb-jena.de/wuenschewagen"
 	organization="Arbeiter-Samariter-Bund Kreisverband Jena e. V."
 >

@@ -9,7 +9,7 @@
 		? 'Das Familienhörbuch für sterbenskranke junge Eltern'
 		: 'The family audio book for terminally ill young parents'}
 	img="young-family-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/91423-das-familienhoerbuch-fuer-sterbenskranke-junge-eltern"
+	urlDonate="https://www.betterplace.org/projects/91423-das-familienhoerbuch-fuer-sterbenskranke-junge-eltern"
 	urlHome="https://familienhoerbuch.de/"
 	organization="Familienhörbuch gGmbH"
 >

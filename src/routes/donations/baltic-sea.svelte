@@ -9,7 +9,7 @@
 		? 'Ostseefahrten für Mukoviszidose Betroffene & Familien aus Berlin/Brandenburg'
 		: 'Baltic sea trips for cystic fibrosis sufferers & families from Berlin/Brandenburg'}
 	img="baltic-sea-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/80592-klimafahrten-fuer-mukoviszidose-betroffene-familien-aus-berlin-brandenburg"
+	urlDonate="https://www.betterplace.org/projects/80592-klimafahrten-fuer-mukoviszidose-betroffene-familien-aus-berlin-brandenburg"
 	urlHome="https://muko-berlin-brandenburg.de/"
 	organization="Mukoviszidose LV Berlin-Brandenburg e.V."
 >

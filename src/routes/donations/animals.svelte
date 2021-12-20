@@ -9,7 +9,7 @@
 		? 'Hilfe für die Tiere des Tierschutzvereins Delmenhorst'
 		: 'Help for the animals of the Tierschutzverein Delmenhorst'}
 	img="animals-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/36723-hilfe-fuer-die-tiere-des-tierschutzvereins-delmenhorst-u-u-e-v"
+	urlDonate="https://www.betterplace.org/projects/36723-hilfe-fuer-die-tiere-des-tierschutzvereins-delmenhorst-u-u-e-v"
 	urlHome="https://www.tierschutzverein-delmenhorst.de/"
 	organization="Tierschutzverein Delmenhorst und Umgebung e.V."
 >

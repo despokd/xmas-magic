@@ -7,7 +7,7 @@
 	amount="20"
 	name={$_('id') == 'de' ? 'Kuku braucht deine Unterstützung!' : 'Kuku needs your support!'}
 	img="dresden-culture-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/86170-kuku-braucht-deine-unterstuetzung"
+	urlDonate="https://www.betterplace.org/projects/86170-kuku-braucht-deine-unterstuetzung"
 	urlHome="https://kukulida.de/?page_id=1300"
 	organization="Kukulida e.V."
 >

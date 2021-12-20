@@ -7,7 +7,7 @@
 	amount="10"
 	name={$_('id') == 'de' ? 'MUSIK macht uns gemeinsam STARK' : 'MUSIC makes us STRONG together'}
 	img="berlin-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/8301-musik-macht-uns-gemeinsam-stark"
+	urlDonate="https://www.betterplace.org/projects/8301-musik-macht-uns-gemeinsam-stark"
 	urlHome="https://hgs-musikprojekte.de/"
 	organization="Förderverein HGS e.V. Musikprojekt"
 >
