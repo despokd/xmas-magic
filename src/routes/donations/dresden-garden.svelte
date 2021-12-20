@@ -9,7 +9,7 @@
 		? 'Gärten & Gemeinschaft in Dresden - Wir wollen mehr!'
 		: 'Gardens & Community in Dresden - We want more!'}
 	img="dresden-garden-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/102767-gaerten-gemeinschaft-in-dresden-wir-wollen-mehr"
+	urlDonate="https://www.betterplace.org/projects/102767-gaerten-gemeinschaft-in-dresden-wir-wollen-mehr"
 	urlHome="https://ufer-projekte.de/"
 	organization="UFER Projekte Dresden e.V."
 >
