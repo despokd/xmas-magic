@@ -9,7 +9,7 @@
 		? 'Werden Sie Pate des Jugendrats!'
 		: 'Become a sponsor of the Youth Council!'}
 	img="youth-img.jpg"
-	urlDonate="https://www.betterplace.org/de/projects/56574-werden-sie-pate-des-jugendrats"
+	urlDonate="https://www.betterplace.org/projects/56574-werden-sie-pate-des-jugendrats"
 	urlHome="https://www.generationenstiftung.com/"
 	organization="Generationen Stiftung gGmbH"
 >
