@@ -88,8 +88,4 @@
 	footer ul {
 		list-style: '> ';
 	}
-
-	a {
-		display: inline;
-	}
 </style>

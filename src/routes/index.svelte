@@ -2,7 +2,7 @@
 	import { _ } from '$lib/i18n';
 	import Title from '$lib/header/Title.svelte';
 
-	let amount = 240;
+	let amount = 250;
 
 	export const prerender = true;
 </script>

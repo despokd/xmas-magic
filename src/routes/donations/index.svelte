@@ -211,5 +211,22 @@
 				{/if}
 			</DonationCard>
 		</li>
+		<li>
+			<DonationCard
+				donationId="patrik"
+				name={$_('id') == 'de'
+					? 'Fest & Flauschig Live -Himmlisches Boosterfest'
+					: 'Fest & Fluffy Live -Himmelic Boosterfest'}
+				img="patrik-img.jpg"
+			>
+				{#if $_('id') == 'de'}
+					Jan und Olli haben wieder ihre große Spendenaktion gestartet, um bis zum 15. Januar 2022
+					für einige von ihnen ausgewählte Charity-Organisationen zu sammeln.
+				{:else}
+					Jan and Olli have started again their big fundraising campaign to collect until January
+					15, 2022 for some charity organizations selected by them.
+				{/if}
+			</DonationCard>
+		</li>
 	</ul>
 </div>
