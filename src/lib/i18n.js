@@ -53,7 +53,7 @@ function setupI18n() {
                 donation: 'Spende',
                 homepage: 'Webseite',
                 donateUrl: 'Spendenseite',
-                donateAction: 'Hier gehts zum spenden',
+                donateAction: 'Hier gehts zum Spenden',
 				backToOverview: 'Zurück zur Übersicht'
             },
 			imprint: {
