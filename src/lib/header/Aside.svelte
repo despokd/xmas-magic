@@ -7,17 +7,17 @@
 <aside role="banner">
 	<nav>
 		<ul>
-			<li class:active={$page.path === '/'}>
+			<li class:active={$page.url.pathname === '/'}>
 				<a sveltekit:prefetch href="/" aria-label={$_('header.home')} title={$_('header.home')}
 					><div class="icon"><IoIosHome /></div></a
 				>
 			</li>
-			<li class:active={$page.path == '/donations' || $page.path.includes('/donations/')}>
+			<li class:active={$page.url.pathname == '/donations' || $page.url.pathname.includes('/donations/')}>
 				<a sveltekit:prefetch href="/donations" title={$_('header.donations')}
 					>{$_('header.donations')}</a
 				>
 			</li>
-			<li class:active={$page.path === '/imprint'}>
+			<li class:active={$page.url.pathname === '/imprint'}>
 				<a sveltekit:prefetch href="/imprint" title={$_('header.imprint')}>{$_('header.imprint')}</a
 				>
 			</li>
