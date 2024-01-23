@@ -19,7 +19,7 @@
 			</figure>
 		{/if}
 	</div>
-	>&nbsp;<a sveltekit:prefetch href="/donations/{donationId}" title={name}
+	>&nbsp;<a data-sveltekit-prefetch href="/donations/{donationId}" title={name}
 		>{$_('donations.details')}</a
 	>
 </section>
