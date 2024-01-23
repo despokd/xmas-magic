@@ -1,17 +1,5 @@
-import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
+import { sveltekit } from '@sveltejs/kit/vite';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	preprocess: [
-		preprocess({
-			scss: true
-		})
-	],
-	kit: {
-		adapter: adapter(),
-		target: '#svelte'
-	}
-};
-
-export default config;
+export default {
+	plugins: [ sveltekit() ]
+  };
