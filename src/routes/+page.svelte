@@ -1,4 +1,4 @@
-<script context="module">
+<script>
 	import { _ } from '$lib/i18n';
 	import Title from '$lib/header/Title.svelte';
 
