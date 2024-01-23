@@ -6,19 +6,19 @@
 
 <aside role="banner">
 	<nav>
-		<ul>
+		<ul data-sveltekit-prefetch>
 			<li class:active={$page.url.pathname === '/'}>
-				<a sveltekit:prefetch href="/" aria-label={$_('header.home')} title={$_('header.home')}
+				<a href="/" aria-label={$_('header.home')} title={$_('header.home')}
 					><div class="icon"><IoIosHome /></div></a
 				>
 			</li>
 			<li class:active={$page.url.pathname == '/donations' || $page.url.pathname.includes('/donations/')}>
-				<a sveltekit:prefetch href="/donations" title={$_('header.donations')}
+				<a href="/donations" title={$_('header.donations')}
 					>{$_('header.donations')}</a
 				>
 			</li>
 			<li class:active={$page.url.pathname === '/imprint'}>
-				<a sveltekit:prefetch href="/imprint" title={$_('header.imprint')}>{$_('header.imprint')}</a
+				<a href="/imprint" title={$_('header.imprint')}>{$_('header.imprint')}</a
 				>
 			</li>
 		</ul>
