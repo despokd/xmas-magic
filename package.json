@@ -16,13 +16,13 @@
     "eslint-plugin-svelte3": "^3.2.1",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
+    "sass": "^1.70.0",
     "svelte": "^3.49.0",
     "svelte-preprocess": "^4.9.8"
   },
   "type": "module",
   "dependencies": {
     "hint": "^2.0.0",
-    "sass": "^1.44.0",
     "svelte-i18n": "^3.3.13",
     "svelte-icons": "^2.1.0"
   }
