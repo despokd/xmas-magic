@@ -3,8 +3,6 @@
 	import Title from '$lib/header/Title.svelte';
 
 	let amount = 250;
-
-	export const prerender = true;
 </script>
 
 <Title title={$_('home.title')} />
